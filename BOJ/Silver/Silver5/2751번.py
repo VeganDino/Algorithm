@@ -9,6 +9,7 @@
 n=sorted([int(input()) for i in range(int(input()))])
 for i in n: print(i)
 
+#-----------------------------------------------------------------
 
 ##### 방법 2
 ##### python3 : 시간초과
