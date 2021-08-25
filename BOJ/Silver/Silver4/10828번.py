@@ -23,3 +23,4 @@ for i in range(n):
     elif 'top' in m:
         if arr: print(arr[-1])
         else: print(-1)
+        
