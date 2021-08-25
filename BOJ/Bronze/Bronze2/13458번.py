@@ -13,4 +13,3 @@ for i in m:
         else: cnt+=(i-b)//c + 2
     else: cnt+=1
 print(cnt)
-
