@@ -13,4 +13,3 @@ for i in range(t):
     for j in arr:
         cnt+=gcd(j[0], j[1])
     print(cnt)
-    
