@@ -17,4 +17,3 @@ for i in range(n):
         lst.append(Y.pop(cnt))
         cnt+=k-1
 print(f"<{', '.join(str(i) for i in lst)}>")
-
