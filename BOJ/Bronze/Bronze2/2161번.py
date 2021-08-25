@@ -17,7 +17,6 @@ for i in card: print(i, end=' ')
 
 
 
-
 ''' 긴버전
 from collections import deque
 
