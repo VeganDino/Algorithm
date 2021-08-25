@@ -41,3 +41,4 @@ def merge_sort(num):
 
 for i in merge_sort(A):
     print(i)
+    
