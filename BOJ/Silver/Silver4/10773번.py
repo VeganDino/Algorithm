@@ -19,4 +19,3 @@ for i in lis:
 
 print(sum(cnt))
     
-
