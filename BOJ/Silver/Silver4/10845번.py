@@ -27,3 +27,4 @@ for i in range(n):
     elif ans[0]=='back':
         if arr: print(arr[-1])
         else: print(-1)
+        
