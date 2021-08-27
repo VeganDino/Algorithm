@@ -12,6 +12,7 @@ def solution(price, money, count):
 
 ##### 방법 2
 
+# 1~n까지의 합 : n*(n+1)//2
 def solution(price, money, count):
     return max(0,price*(count+1)*count//2-money)
     
