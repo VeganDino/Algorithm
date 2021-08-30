@@ -14,7 +14,7 @@ def solution(progresses, speeds):
             count.append(minus[i]//speeds[i]+1)
     cnt=1
     ans=[]
-    # ans 배보마다 몇 개의 기능이 배포되는지
+    # ans 배포마다 몇 개의 기능이 배포되는지
     start=count[0]
     for i in range(len(count)-1):
         if start>=count[i+1]:
@@ -58,6 +58,6 @@ def solution(progresses, speeds):
     [[5, 1], [10, 3]]
     [[5, 1], [10, 3], [20, 1]]
     [[5, 1], [10, 3], [20, 2]]
-    
+
     [1, 3, 2]
     '''
