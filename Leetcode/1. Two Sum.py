@@ -20,3 +20,4 @@ class Solution:
                 return [hashmap[target-i], idx]
             hashmap[i]=idx
             
+            
