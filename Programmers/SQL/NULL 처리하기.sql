@@ -1,0 +1,6 @@
+
+# IFNULL문 - (mysql 에서 사용)
+# ISNULL문 - (MS-SQL 에서 사용)
+
+SELECT ANIMAL_TYPE, IFNULL(NAME,"No name"), SEX_UPON_INTAKE 
+FROM ANIMAL_INS
