@@ -10,7 +10,7 @@
 |array|big-O|two pointers|
 |linked list|sorting|sliding window|
 |stack|brute force|dynamic programming|
-|queue|recursion||
+|queue|recursion|greedy|
 |deque|iteration||
 |tree|binary search||
 |graph|BFS/DFS||
