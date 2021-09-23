@@ -6,7 +6,7 @@
 
 
 |Data Structure|Algorithm||
-|------|------|------|
+|:------|:------|:------|
 |array|big-O|two pointers|
 |linked list|sorting|sliding window|
 |stack|brute force|dynamic programming|
