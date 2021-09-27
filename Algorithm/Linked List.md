@@ -94,7 +94,7 @@ def delete_node(self, index):
 
 <br>
 
-## 전체 코드
+## Linked Lisk 구현 예시
 
 ```py
 # Node 클래스 정의
@@ -163,4 +163,69 @@ class LinkedList:
 
     def size(self):
         return self.num_of_data
+```
+
+<br>
+
+## Test Code
+
+```py
+if __name__ = '__main__':
+  l_list = LinkedList()
+  l_list.append(5)
+  l_list.append(2)
+  l_list.append(1)
+  l_list.append(2)
+  l_list.append(7)
+  l_list.append(2)
+  l_list.append(11)
+
+  print('first :', l_list.first())      # first : 5
+  print('next :', l_list.next())        # next : 2
+  print('size :', l_list.size())        # size : 7
+  print('delete :', l_list.delete())    # delete : 2
+  print('size :', l_list.size())        # size : 6
+  print('current:', l_list.current.data)# current: 5
+  print('tail:', l_list.tail.data)      # tail: 11
+  print('first :', l_list.first())      # first : 5
+  print('next :', l_list.next())        # next : 1
+  print('next :', l_list.next())        # next : 2
+  print('next :', l_list.next())        # next : 7
+
+
+  # 전체 노드 data 표시하기
+  data = l_list.first()
+
+  if data:
+      print(data, end=' ')
+      while True:
+          data = l_list.next()
+          if data:
+              print(data, end= ' ')
+          else:
+              break
+  # 5 1 2 7 2 11
+
+
+
+  # 2만 삭제하기
+   data = l_list.first()
+
+   if data and data == 2:
+       l_list.delete()
+       print('deleted', end=' ')
+   else:
+       print(data, end= ' ')
+
+   while True:
+       data = l_list.next()
+       if data == 2:
+           l_list.delete()
+           print('deleted', end=' ')
+       elif data:
+           print(data, end=' ')
+       else:
+           break
+
+   # 5 1 deleted 7 deleted 11
 ```
