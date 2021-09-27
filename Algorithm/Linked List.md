@@ -62,6 +62,8 @@ def get_node(self, index):
     return node
 ```
 
+<br>
+
 ## 삽입
 
 ```py
