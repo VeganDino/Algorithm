@@ -46,7 +46,7 @@
 
 <br>
 
-<img src ='https://user-images.githubusercontent.com/56749776/138605807-2d3dad52-44ff-44ef-b686-44c3ff9ac626.png' width='60%'>
+<img src ='https://user-images.githubusercontent.com/56749776/138605807-2d3dad52-44ff-44ef-b686-44c3ff9ac626.png' width='40%'>
 
 
 ```py
