@@ -17,11 +17,11 @@
 
 <br>
 
-<img src ='https://user-images.githubusercontent.com/56749776/138608747-a7698128-8baf-47e6-ac3c-73f13f65de95.png' width='70%'>
+<img src ='https://user-images.githubusercontent.com/56749776/138608747-a7698128-8baf-47e6-ac3c-73f13f65de95.png' width='60%'>
 
 <br>
 
-<img src ='https://user-images.githubusercontent.com/56749776/138608711-c947e229-8ff4-4b8f-a1a2-119e6162a808.png' width='70%'>
+<img src ='https://user-images.githubusercontent.com/56749776/138608711-c947e229-8ff4-4b8f-a1a2-119e6162a808.png' width='60%'>
 
 <br>
 
@@ -82,7 +82,7 @@
 11. O(|E|Log|V|). 이까지 이해했으면 A* 알고리즘의 시간 복잡도는 별 의미가 없다는 것을 알 수 있을 것임.
 
 <br>
- 
+
 ## URL
 
 [**Big O Cheatsheet**](http://bigocheatsheet.com/)
