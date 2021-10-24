@@ -8,9 +8,8 @@
 병합 정렬은 분할 정복 (Devide and Conquer) 기법과 재귀 알고리즘을 이용한 정렬 알고리즘이다.     
 즉, 주어진 배열을 원소가 하나 밖에 남지 않을 때까지 계속 둘로 쪼갠 후에 다시 크기 순으로 재배열 하면서 원래 크기의 배열로 합친다. 
 
-<br>
 
-<img src='https://user-images.githubusercontent.com/56749776/138598220-e553575f-b9e5-4447-ae11-33c8d0c734e6.png' width='100%'>
+<img src='https://user-images.githubusercontent.com/56749776/138598220-e553575f-b9e5-4447-ae11-33c8d0c734e6.png' width='90%'>
 
 <br>
 
