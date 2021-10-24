@@ -18,7 +18,7 @@
 
 <br>
 
-크기 n의 배열이 주어졌을 때, index 0부터 n-1까지의 모든 index i에 대해서, i번째 부터 n-1 번째까지 값 중 가장 작은 값을 구해서 index i에 놓으면 정렬된 배열을 얻을 수가 있다. 모든 index에 대해서 그 index에 위치시킬 값을 “선택”하기 때문에 이 정렬 알고리즘을 ```선택 정렬```또는 ```Selection Sort```이라고 부른다.
+크기 n의 배열이 주어졌을 때, index 0부터 n-1까지의 모든 index i에 대해서, i번째 부터 n-1 번째까지 값 중 가장 작은 값을 구해서 index i에 놓으면 정렬된 배열을 얻을 수가 있다. 모든 index에 대해서 그 index에 위치시킬 값을 “선택”하기 때문에 이 정렬 알고리즘을 **선택 정렬**또는 **Selection Sort**이라고 부른다.
 
 <br>
 
@@ -46,7 +46,7 @@
 
 <br>
 
-<img src ='https://user-images.githubusercontent.com/56749776/138605807-2d3dad52-44ff-44ef-b686-44c3ff9ac626.png' width='70%'>
+<img src ='https://user-images.githubusercontent.com/56749776/138605807-2d3dad52-44ff-44ef-b686-44c3ff9ac626.png' width='60%'>
 
 
 ```py
