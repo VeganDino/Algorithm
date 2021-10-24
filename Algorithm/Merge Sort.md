@@ -101,6 +101,6 @@ def merge_sort(arr):
 
 ## 퀵 정렬 & 병합 정렬 차이점
 
-**퀵 정렬** : 우선 피벗을 통해 정렬(partition) -> 영역을 쪼갬(quickSort)     
-**병합 정렬** : 영역을 최대한으로 쪼갬(mergeSort) -> 정렬(merge)
+퀵 정렬 : 우선 피벗을 통해 정렬(partition) -> 영역을 쪼갬(quickSort)     
+병합 정렬 : 영역을 최대한으로 쪼갬(mergeSort) -> 정렬(merge)
   
