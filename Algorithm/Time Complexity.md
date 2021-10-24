@@ -7,7 +7,7 @@
 
 <br>
 
-<img src ='https://user-images.githubusercontent.com/56749776/138609139-967f7e86-9d21-4de6-997a-e83910a633e7.png' width='60%'>
+<img src ='https://user-images.githubusercontent.com/56749776/138609139-967f7e86-9d21-4de6-997a-e83910a633e7.png' width='40%'>
 
 <br>
 
