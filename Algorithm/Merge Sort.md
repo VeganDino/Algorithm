@@ -26,7 +26,7 @@
 먼저 배열을 더 이상 나눌 수 없을 때 까지 (원소가 하나만 남을 때까지) 최대한 분할 후에, 다시 병합하면서 점점 큰 배열을 만들어 나가면 된다.       
 따라서 이 재귀 알고리즘의 기저 조건은 입력 배열의 크기가 2보다 작을 때이며, 이 조건에 해당할 때는 배열을 그대로 반환하면 된다.        
 
-<img src='https://user-images.githubusercontent.com/56749776/138598220-e553575f-b9e5-4447-ae11-33c8d0c734e6.png' width='80%'>
+<img src='https://user-images.githubusercontent.com/56749776/138598220-e553575f-b9e5-4447-ae11-33c8d0c734e6.png' width='65%'>
 
 <br>
 
