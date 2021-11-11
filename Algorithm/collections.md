@@ -1,5 +1,8 @@
 ## collections 
 
+collections 모듈은 파이썬 내장 모듈이다.    
+collections 모듈은 deque,  Counter 등을 제공한다. 
+
 <br>
 
 ## Counter
