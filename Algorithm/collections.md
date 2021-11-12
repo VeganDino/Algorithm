@@ -3,25 +3,6 @@
 collections 모듈은 파이썬 내장 모듈이다.    
 collections 모듈은 deque,  Counter 등을 제공한다. 
 
-<br>
-
-## Counter
-
-```Counter``` 모듈은 시퀀스 자료형의 데이터 요소 개수를 딕셔너리 형태로 반환하는 자료구조이다. 즉, 리스트나 문자열과 같은 시퀀스 자료형 안의 요소 중 값이 같은 것이 몇 개 있는지 반환해 준다. 
-
-<br>
-
-```py
-from collections import Counter
-
-text="lalalands"
-Counter(text)
-▶ Counter({'l': 3, 'a': 3, 'n': 1, 'd': 1, 's': 1})
-
-t=Counter(text)
-t['l']
-▶ 3
-```
 
 <br>
 
@@ -68,3 +49,43 @@ q
 ▶ deque([1,2])
 ```
 
+<br>
+
+```reversed()``` 함수를 사용하면 기존과 반대로 저장할 수 있다.     
+또한  ```extend()```나 ```extendleft()``` 함수를 사용하면 리스트 통째로 오른쪽 혹은 횐쪽으로 추가된다.
+
+<br>
+
+```py
+q=deque()
+for i in range(3):
+    w.append(i)
+
+q.extend([5,6,7])
+print(q)
+▶ deque([0,1,2,5,6,7])
+
+q.extendleft([5,6,7])
+print(q)
+▶ deque([7,6,5,0,1,2,5,6,7])
+```
+
+<br>
+
+## Counter
+
+```Counter``` 모듈은 시퀀스 자료형의 데이터 요소 개수를 딕셔너리 형태로 반환하는 자료구조이다. 즉, 리스트나 문자열과 같은 시퀀스 자료형 안의 요소 중 값이 같은 것이 몇 개 있는지 반환해 준다. 
+
+<br>
+
+```py
+from collections import Counter
+
+text="lalalands"
+Counter(text)
+▶ Counter({'l': 3, 'a': 3, 'n': 1, 'd': 1, 's': 1})
+
+t=Counter(text)
+t['l']
+▶ 3
+```
