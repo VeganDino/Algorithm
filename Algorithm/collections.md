@@ -1,7 +1,7 @@
 ## collections 
 
 collections 모듈은 파이썬 내장 모듈이다.    
-collections 모듈은 deque,  Counter 등을 제공한다. 
+collections 모듈은 deque,  Counter, defaultdict 등을 제공한다. 
 
 
 <br>
@@ -89,3 +89,29 @@ t=Counter(text)
 t['l']
 ▶ 3
 ```
+
+<br>
+
+## OrderedDict
+
+순서(시퀀스)를 유지하기 위해 linked list가 내부에 구성되어 각 순서가 유지되는 딕셔너리이다. (순서 유지)
+
+<br>
+
+```py
+scores = collections.OrderedDict([('h',88), ('s', 97), ('a', 87)]) 
+scores.popitem(last = True) 
+▶ ('a', 87) 
+
+scores.move_to_end(key = "h", last = True) 
+▶ OrderedDict([('s', 97), ('h', 88)])
+```
+
+<br>
+
+## defaultdict 
+
+딕셔너리 key 값이 미등록 됐을 때 KeyError가 발생하는 단점을 보완한 객체이며 새로운 인스턴스를 만드는 데 적합하다. 
+
+<br>
+
